@@ -52,7 +52,7 @@ def compute(elmin):
         s = "Io-B"
     if L3 < 350 and L3 > 300 and U1 < 250 and U1 > 230:
         s = "Io-C"
-    return [dt,s];
+    return [dt, s, U1, L3];
 
 
 print('Program to flag Jovian Decametric windows')
